@@ -1,0 +1,278 @@
+-------------------
+
+Error occurred on Sunday, October 29, 2023 at 19:13:31.
+
+srb2kart.exe caused an Access Violation at location 0056FA60 in module srb2kart.exe Reading from location 25855013.
+
+Registers:
+eax=000007ff ebx=26c7be00 ecx=0000000a edx=0000026a esi=25854814 edi=174a5446
+eip=0056fa60 esp=01d2fbdc ebp=00000500 iopl=0         nv up ei pl zr na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010246
+
+AddrPC   Params
+0056FA60 7FFFFFFF 0189D221 000001CF  srb2kart.exe!R_DrawColumn_8_MMX
+00524DDF 258547F9 00000FEB 00000000  srb2kart.exe!R_DrawMaskedColumn
+0051CC5C 00000000 00000000 00000000  srb2kart.exe!R_RenderMaskedSegRange
+
+srb2kart.exe
+ntdll.dll   	6.3.17763.4974
+KERNEL32.DLL	6.3.17763.4974
+KERNELBASE.dll	6.3.17763.4974
+ADVAPI32.dll	6.3.17763.4720
+msvcrt.dll  	7.0.17763.475
+sechost.dll 	6.3.17763.4720
+libcurl.dll 	7.69.0.0
+discord-rpc.dll
+RPCRT4.dll  	6.3.17763.4974
+CRYPT32.dll 	6.3.17763.4720
+SspiCli.dll 	6.3.17763.4974
+ucrtbase.dll	6.3.17763.1490
+CRYPTBASE.dll	6.3.17763.1
+bcryptPrimitives.dll	6.3.17763.3887
+MSASN1.dll  	6.3.17763.3650
+wldap32.dll 	6.3.17763.3406
+SHELL32.dll 	6.3.17763.4840
+WS2_32.dll  	6.3.17763.2028
+cfgmgr32.dll	6.3.17763.1
+libgme.dll
+shcore.dll  	6.3.17763.2989
+USER32.dll  	6.3.17763.4840
+combase.dll 	6.3.17763.4377
+SDL2.dll    	2.0.22.0
+win32u.dll  	6.3.17763.1
+windows.storage.dll	6.3.17763.4720
+GDI32.dll   	6.3.17763.4840
+msvcp_win.dll	6.3.17763.1
+profapi.dll 	6.3.17763.2989
+gdi32full.dll	6.3.17763.4974
+SDL2_mixer.dll	2.0.4.0
+exchndl.dll 	0.9.0.0
+powrprof.dll	6.3.17763.1
+IMM32.DLL   	6.3.17763.719
+shlwapi.dll 	6.3.17763.3469
+PSAPI.DLL   	6.3.17763.1
+ole32.dll   	6.3.17763.4974
+kernel.appcore.dll	6.3.17763.1
+OLEAUT32.dll	6.3.17763.4644
+SETUPAPI.dll	6.3.17763.3532
+cryptsp.dll 	6.3.17763.4974
+IPHLPAPI.DLL	6.3.17763.2989
+bcrypt.dll  	6.3.17763.4644
+mgwhelp.dll 	0.9.0.0
+WINMM.DLL   	6.3.17763.1
+VERSION.dll 	6.3.17763.1
+dbghelp.dll 	6.3.17763.1999
+winmmbase.dll	6.3.17763.1
+dbgcore.DLL 	6.3.17763.1
+uxtheme.dll 	6.3.17763.4840
+mscms.dll   	6.3.17763.2989
+ColorAdapterClient.dll	6.3.17763.1
+USERENV.dll 	6.3.17763.1728
+icm32.dll   	6.3.17763.1217
+MSCTF.dll   	6.3.17763.4644
+dwmapi.dll  	6.3.17763.2989
+CoreMessaging.dll	6.3.17763.2931
+OPENGL32.DLL	6.3.17763.1
+GLU32.dll   	6.3.17763.1
+atiglpxx.dll	8.14.1.6463
+atioglxx.dll	6.14.10.13399
+atiadlxy.dll	7.15.20.1301
+WTSAPI32.dll	6.3.17763.1
+PROPSYS.dll 	7.0.17763.2989
+DEVOBJ.dll  	6.3.17763.2145
+WINTRUST.dll	6.3.17763.4252
+atigktxx.dll	8.14.1.6463
+dxgi.dll    	6.3.17763.2989
+d3d11.dll   	6.3.17763.3469
+aticfx32.dll	8.17.10.1404
+atiuxpag.dll	8.14.1.6463
+atidxx32.dll	8.17.10.625
+secur32.dll 	6.3.17763.1
+mswsock.dll 	6.3.17763.1192
+hid.dll     	6.3.17763.1
+DNSAPI.dll  	6.3.17763.2989
+NSI.dll     	6.3.17763.1554
+fwpuclnt.dll	6.3.17763.4974
+clbcatq.dll 	2001.12.10941.16384
+rasadhlp.dll	6.3.17763.1
+dinput8.dll 	6.3.17763.1
+inputhost.dll
+twinapi.appcore.dll	6.3.17763.2989
+CoreUIComponents.dll	6.3.17763.1554
+d2d1.dll    	6.3.17763.2989
+RMCLIENT.dll	6.3.17763.1697
+ntmarta.dll 	6.3.17763.1
+wintypes.dll	6.3.17763.4377
+Windows.Gaming.Input.dll	6.3.17763.1697
+OneCoreUAPCommonProxyStub.dll	6.3.17763.2931
+XInput1_4.dll	6.3.17763.1
+deviceaccess.dll	6.3.17763.2989
+Windows.System.UserDeviceAssociation.dll	6.3.17763.1697
+usermgrproxy.dll	6.3.17763.2989
+schannel.dll	6.3.17763.4377
+DSOUND.DLL  	6.3.17763.4644
+MMDevAPI.DLL	6.3.17763.2989
+wdmaud.drv  	6.3.17763.1
+ksuser.dll  	6.3.17763.1
+AVRT.dll    	6.3.17763.1
+AUDIOSES.DLL	6.3.17763.4974
+msacm32.drv 	6.3.17763.4974
+MSACM32.dll 	6.3.17763.1
+midimap.dll 	6.3.17763.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.17763.1339
+Windows.UI.dll	6.3.17763.2989
+TextInputFramework.dll	6.3.17763.4492
+mskeyprotect.dll	6.3.17763.4974
+ncrypt.dll  	6.3.17763.4974
+NTASN1.dll  	6.3.17763.1
+ncryptsslp.dll	6.3.17763.4252
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Thursday, November 2, 2023 at 17:12:56.
+
+srb2kart.exe caused an Access Violation at location 0056FA60 in module srb2kart.exe Reading from location 526CA315.
+
+Registers:
+eax=000003ff ebx=13195200 ecx=00000024 edx=00000086 esi=526c9f16 edi=14cb566b
+eip=0056fa60 esp=01d2fbdc ebp=00000500 iopl=0         nv up ei pl zr na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010246
+
+AddrPC   Params
+0056FA60 FFEFD9AD 0191EDAD 0191B9BE  srb2kart.exe!R_DrawColumn_8_MMX
+00524DDF 526C9BAB 000003FF 00000000  srb2kart.exe!R_DrawMaskedColumn
+0051CF05 FFEFD9AD 00000001 0191EDAD  srb2kart.exe!R_RenderMaskedSegRange
+00533F8F 53B6AA0F 40D3F72C 3789F798  srb2kart.exe!W_CacheLumpNum
+005237BE 00000000 00000000 00000000  srb2kart.exe!R_SortVisSprites.part.0
+
+srb2kart.exe
+ntdll.dll   	6.3.17763.4974
+KERNEL32.DLL	6.3.17763.4974
+KERNELBASE.dll	6.3.17763.4974
+ADVAPI32.dll	6.3.17763.4720
+msvcrt.dll  	7.0.17763.475
+sechost.dll 	6.3.17763.4720
+RPCRT4.dll  	6.3.17763.4974
+SspiCli.dll 	6.3.17763.4974
+CRYPTBASE.dll	6.3.17763.1
+bcryptPrimitives.dll	6.3.17763.3887
+SHELL32.dll 	6.3.17763.4840
+cfgmgr32.dll	6.3.17763.1
+ucrtbase.dll	6.3.17763.1490
+shcore.dll  	6.3.17763.2989
+combase.dll 	6.3.17763.4377
+windows.storage.dll	6.3.17763.4720
+msvcp_win.dll	6.3.17763.1
+profapi.dll 	6.3.17763.2989
+powrprof.dll	6.3.17763.1
+shlwapi.dll 	6.3.17763.3469
+GDI32.dll   	6.3.17763.4840
+gdi32full.dll	6.3.17763.4974
+USER32.dll  	6.3.17763.4840
+win32u.dll  	6.3.17763.1
+kernel.appcore.dll	6.3.17763.1
+cryptsp.dll 	6.3.17763.4974
+WS2_32.dll  	6.3.17763.2028
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.17763.1
+discord-rpc.dll
+SDL2_mixer.dll	2.0.4.0
+IPHLPAPI.DLL	6.3.17763.2989
+libgme.dll
+VERSION.dll 	6.3.17763.1
+SDL2.dll    	2.0.22.0
+IMM32.DLL   	6.3.17763.719
+ole32.dll   	6.3.17763.4974
+WINMM.DLL   	6.3.17763.1
+OLEAUT32.dll	6.3.17763.4644
+WINMMBASE.dll	6.3.17763.1
+SETUPAPI.dll	6.3.17763.3532
+bcrypt.dll  	6.3.17763.4644
+libcurl.dll 	7.69.0.0
+CRYPT32.dll 	6.3.17763.4720
+MSASN1.dll  	6.3.17763.3650
+wldap32.dll 	6.3.17763.3406
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.17763.1999
+dbgcore.DLL 	6.3.17763.1
+uxtheme.dll 	6.3.17763.4840
+mscms.dll   	6.3.17763.2989
+ColorAdapterClient.dll	6.3.17763.1
+USERENV.dll 	6.3.17763.1728
+icm32.dll   	6.3.17763.1217
+MSCTF.dll   	6.3.17763.4644
+dwmapi.dll  	6.3.17763.2989
+CoreMessaging.dll	6.3.17763.2931
+OPENGL32.DLL	6.3.17763.1
+GLU32.dll   	6.3.17763.1
+atiglpxx.dll	8.14.1.6463
+atioglxx.dll	6.14.10.13399
+atiadlxy.dll	7.15.20.1301
+WTSAPI32.dll	6.3.17763.1
+PROPSYS.dll 	7.0.17763.2989
+DEVOBJ.dll  	6.3.17763.2145
+WINTRUST.dll	6.3.17763.4252
+atigktxx.dll	8.14.1.6463
+dxgi.dll    	6.3.17763.2989
+d3d11.dll   	6.3.17763.3469
+aticfx32.dll	8.17.10.1404
+atiuxpag.dll	8.14.1.6463
+atidxx32.dll	8.17.10.625
+secur32.dll 	6.3.17763.1
+mswsock.dll 	6.3.17763.1192
+DNSAPI.dll  	6.3.17763.2989
+NSI.dll     	6.3.17763.1554
+hid.dll     	6.3.17763.1
+clbcatq.dll 	2001.12.10941.16384
+dinput8.dll 	6.3.17763.1
+inputhost.dll
+CoreUIComponents.dll	6.3.17763.1554
+d2d1.dll    	6.3.17763.2989
+twinapi.appcore.dll	6.3.17763.2989
+wintypes.dll	6.3.17763.4377
+ntmarta.dll 	6.3.17763.1
+RMCLIENT.dll	6.3.17763.1697
+Windows.Gaming.Input.dll	6.3.17763.1697
+OneCoreUAPCommonProxyStub.dll	6.3.17763.2931
+XInput1_4.dll	6.3.17763.1
+deviceaccess.dll	6.3.17763.2989
+Windows.System.UserDeviceAssociation.dll	6.3.17763.1697
+usermgrproxy.dll	6.3.17763.2989
+fwpuclnt.dll	6.3.17763.4974
+rasadhlp.dll	6.3.17763.1
+DSOUND.DLL  	6.3.17763.4644
+MMDevAPI.DLL	6.3.17763.2989
+wdmaud.drv  	6.3.17763.1
+ksuser.dll  	6.3.17763.1
+AVRT.dll    	6.3.17763.1
+AUDIOSES.DLL	6.3.17763.4974
+msacm32.drv 	6.3.17763.4974
+MSACM32.dll 	6.3.17763.1
+midimap.dll 	6.3.17763.1
+libFLAC-8.dll
+libogg-0.dll
+schannel.dll	6.3.17763.4377
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+mskeyprotect.dll	6.3.17763.4974
+ncrypt.dll  	6.3.17763.4974
+NTASN1.dll  	6.3.17763.1
+ncryptsslp.dll	6.3.17763.4252
+resourcepolicyclient.dll	6.3.17763.1339
+Windows.UI.dll	6.3.17763.2989
+TextInputFramework.dll	6.3.17763.4492
+
+Windows 6.3.9600
+DrMingw 0.9.0
+

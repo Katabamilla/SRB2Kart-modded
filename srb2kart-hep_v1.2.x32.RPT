@@ -1,0 +1,138 @@
+-------------------
+
+Error occurred on Monday, January 1, 2024 at 20:10:05.
+
+srb2kart-hep_v1.2.x32.exe caused an Access Violation at location 7776AC70 in module msvcrt.dll Reading from location 00000000.
+
+Registers:
+eax=00000000 ebx=00000000 ecx=00000000 edx=00000008 esi=00755500 edi=0000006e
+eip=7776ac70 esp=01e8fca4 ebp=00000028 iopl=0         nv up ei pl zr na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010246
+
+AddrPC   Params
+7776AC70 00000000 00000000 00000008  msvcrt.dll!strlen
+00536E79 00000000 00000000 00000000  srb2kart-hep_v1.2.x32.exe!V_StringWidth
+
+srb2kart-hep_v1.2.x32.exe
+ntdll.dll   	6.3.17763.4974
+KERNEL32.DLL	6.3.17763.4974
+KERNELBASE.dll	6.3.17763.4974
+apphelp.dll 	6.3.17763.5122
+ADVAPI32.dll	6.3.17763.5122
+msvcrt.dll  	7.0.17763.475
+sechost.dll 	6.3.17763.4720
+RPCRT4.dll  	6.3.17763.5122
+SspiCli.dll 	6.3.17763.4974
+CRYPTBASE.dll	6.3.17763.1
+bcryptPrimitives.dll	6.3.17763.3887
+SHELL32.dll 	6.3.17763.5122
+cfgmgr32.dll	6.3.17763.1
+ucrtbase.dll	6.3.17763.1490
+shcore.dll  	6.3.17763.2989
+combase.dll 	6.3.17763.5122
+windows.storage.dll	6.3.17763.5122
+msvcp_win.dll	6.3.17763.1
+profapi.dll 	6.3.17763.2989
+powrprof.dll	6.3.17763.1
+shlwapi.dll 	6.3.17763.3469
+GDI32.dll   	6.3.17763.4840
+gdi32full.dll	6.3.17763.5122
+USER32.dll  	6.3.17763.4840
+win32u.dll  	6.3.17763.1
+kernel.appcore.dll	6.3.17763.1
+cryptsp.dll 	6.3.17763.4974
+WS2_32.dll  	6.3.17763.2028
+libcurl.dll 	7.69.0.0
+CRYPT32.dll 	6.3.17763.4720
+MSASN1.dll  	6.3.17763.3650
+wldap32.dll 	6.3.17763.3406
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.17763.1
+libgme.dll
+IPHLPAPI.DLL	6.3.17763.2989
+SDL2_mixer.dll	2.0.4.0
+VERSION.dll 	6.3.17763.1
+discord-rpc.dll
+WINMM.DLL   	6.3.17763.1
+WINMMBASE.dll	6.3.17763.1
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.17763.1999
+dbgcore.DLL 	6.3.17763.1
+SDL2.dll    	2.0.22.0
+IMM32.DLL   	6.3.17763.719
+ole32.dll   	6.3.17763.4974
+OLEAUT32.dll	6.3.17763.4644
+SETUPAPI.dll	6.3.17763.3532
+bcrypt.dll  	6.3.17763.4644
+uxtheme.dll 	6.3.17763.4840
+mscms.dll   	6.3.17763.2989
+ColorAdapterClient.dll	6.3.17763.1
+USERENV.dll 	6.3.17763.1728
+icm32.dll   	6.3.17763.1217
+MSCTF.dll   	6.3.17763.5122
+dwmapi.dll  	6.3.17763.2989
+clbcatq.dll 	2001.12.10941.16384
+TextInputFramework.dll	6.3.17763.4492
+CoreUIComponents.dll	6.3.17763.1554
+CoreMessaging.dll	6.3.17763.5202
+ntmarta.dll 	6.3.17763.1
+wintypes.dll	6.3.17763.5122
+OPENGL32.DLL	6.3.17763.1
+GLU32.dll   	6.3.17763.1
+atiglpxx.dll	8.14.1.6463
+atioglxx.dll	6.14.10.13399
+atiadlxy.dll	7.15.20.1301
+PROPSYS.dll 	7.0.17763.2989
+WTSAPI32.dll	6.3.17763.1
+DEVOBJ.dll  	6.3.17763.2145
+WINTRUST.dll	6.3.17763.4252
+atigktxx.dll	8.14.1.6463
+dxgi.dll    	6.3.17763.2989
+d3d11.dll   	6.3.17763.3469
+aticfx32.dll	8.17.10.1404
+atiuxpag.dll	8.14.1.6463
+atidxx32.dll	8.17.10.625
+secur32.dll 	6.3.17763.1
+mswsock.dll 	6.3.17763.1192
+hid.dll     	6.3.17763.1
+DNSAPI.dll  	6.3.17763.2989
+NSI.dll     	6.3.17763.1554
+dinput8.dll 	6.3.17763.1
+inputhost.dll
+twinapi.appcore.dll	6.3.17763.2989
+d2d1.dll    	6.3.17763.2989
+RMCLIENT.dll	6.3.17763.1697
+fwpuclnt.dll	6.3.17763.5122
+rasadhlp.dll	6.3.17763.1
+Windows.Gaming.Input.dll	6.3.17763.1697
+OneCoreUAPCommonProxyStub.dll	6.3.17763.2931
+XInput1_4.dll	6.3.17763.1
+deviceaccess.dll	6.3.17763.2989
+Windows.System.UserDeviceAssociation.dll	6.3.17763.1697
+usermgrproxy.dll	6.3.17763.2989
+schannel.dll	6.3.17763.4377
+DSOUND.DLL  	6.3.17763.4644
+MMDevAPI.DLL	6.3.17763.2989
+wdmaud.drv  	6.3.17763.1
+AVRT.dll    	6.3.17763.1
+ksuser.dll  	6.3.17763.1
+AUDIOSES.DLL	6.3.17763.4974
+msacm32.drv 	6.3.17763.4974
+MSACM32.dll 	6.3.17763.1
+midimap.dll 	6.3.17763.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+mskeyprotect.dll	6.3.17763.4974
+ncrypt.dll  	6.3.17763.4974
+NTASN1.dll  	6.3.17763.1
+libmpg123-0.dll
+ncryptsslp.dll	6.3.17763.4252
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.17763.1339
+Windows.UI.dll	6.3.17763.2989
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
