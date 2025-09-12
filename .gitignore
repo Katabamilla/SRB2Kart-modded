@@ -33,3 +33,5 @@ replay/customtracks/MAPYK-blanc-last.lmp
 kartdata.dat
 /kartmaker
 *.RPT
+customtracks.dat
+/replay
