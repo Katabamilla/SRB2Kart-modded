@@ -1,2 +1,2 @@
 @echo off
-start /b srb2kart.exe -opengl
+start /b 0_srb2kart-hep -opengl
